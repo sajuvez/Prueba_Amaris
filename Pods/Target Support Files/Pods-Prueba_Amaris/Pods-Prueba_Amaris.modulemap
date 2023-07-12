@@ -1,0 +1,6 @@
+framework module Pods_Prueba_Amaris {
+  umbrella header "Pods-Prueba_Amaris-umbrella.h"
+
+  export *
+  module * { export * }
+}
