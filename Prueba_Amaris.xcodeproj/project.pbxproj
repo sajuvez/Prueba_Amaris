@@ -13,11 +13,26 @@
 		524754792A5B3D6900CBF5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524754772A5B3D6900CBF5D6 /* Main.storyboard */; };
 		5247547B2A5B3D6B00CBF5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5247547A2A5B3D6B00CBF5D6 /* Assets.xcassets */; };
 		5247547E2A5B3D6B00CBF5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5247547C2A5B3D6B00CBF5D6 /* LaunchScreen.storyboard */; };
-		524754872A5B44DA00CBF5D6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 524754862A5B44DA00CBF5D6 /* Alamofire */; };
-		52AB006F2A5C967400CCF285 /* SpoonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB006E2A5C967400CCF285 /* SpoonApi.swift */; };
+		52AB00722A5C9AC600CCF285 /* SpoonacularApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00712A5C9AC600CCF285 /* SpoonacularApi.swift */; };
+		52AB00742A5C9AE500CCF285 /* Spoonacular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00732A5C9AE500CCF285 /* Spoonacular.swift */; };
+		52AB00762A5C9B1F00CCF285 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00752A5C9B1F00CCF285 /* DataModel.swift */; };
+		52AB00782A5C9B5800CCF285 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00772A5C9B5800CCF285 /* Recipe.swift */; };
+		52AB007A2A5CFB8E00CCF285 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00792A5CFB8E00CCF285 /* RecipeTableViewController.swift */; };
+		52AB007F2A5E153F00CCF285 /* RecipeStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB007B2A5E153E00CCF285 /* RecipeStepsViewController.swift */; };
+		52AB00802A5E153F00CCF285 /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB007C2A5E153E00CCF285 /* SearchRecipeViewController.swift */; };
+		52AB00812A5E153F00CCF285 /* SearchNutrientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB007D2A5E153F00CCF285 /* SearchNutrientsViewController.swift */; };
+		52AB00822A5E153F00CCF285 /* NutrientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB007E2A5E153F00CCF285 /* NutrientsViewController.swift */; };
+		52AB00842A5E49D300CCF285 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00832A5E49D200CCF285 /* Step.swift */; };
+		52AB00892A5E4B8700CCF285 /* Ingredients.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00852A5E4B8600CCF285 /* Ingredients.xcdatamodeld */; };
+		52AB008A2A5E4B8700CCF285 /* WTFD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52AB00872A5E4B8600CCF285 /* WTFD.xcdatamodeld */; };
+		52AB008E2A5E783700CCF285 /* RecipeStepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB008B2A5E783700CCF285 /* RecipeStepsTableViewCell.swift */; };
+		52AB008F2A5E783700CCF285 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB008C2A5E783700CCF285 /* RecipeTableViewCell.swift */; };
+		52AB00902A5E783700CCF285 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB008D2A5E783700CCF285 /* IngredientTableViewCell.swift */; };
+		7AA0AFCC3B2DAA885F0ACECD /* Pods_Prueba_Amaris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD882BA1103E1478E4B5C709 /* Pods_Prueba_Amaris.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3055C356E1989094822D5E /* Pods-Prueba_Amaris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba_Amaris.debug.xcconfig"; path = "Target Support Files/Pods-Prueba_Amaris/Pods-Prueba_Amaris.debug.xcconfig"; sourceTree = "<group>"; };
 		5247546E2A5B3D6900CBF5D6 /* Prueba_Amaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba_Amaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524754712A5B3D6900CBF5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524754732A5B3D6900CBF5D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +41,23 @@
 		5247547A2A5B3D6B00CBF5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5247547D2A5B3D6B00CBF5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5247547F2A5B3D6B00CBF5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52AB006E2A5C967400CCF285 /* SpoonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonApi.swift; sourceTree = "<group>"; };
+		52AB00712A5C9AC600CCF285 /* SpoonacularApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularApi.swift; sourceTree = "<group>"; };
+		52AB00732A5C9AE500CCF285 /* Spoonacular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spoonacular.swift; sourceTree = "<group>"; };
+		52AB00752A5C9B1F00CCF285 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		52AB00772A5C9B5800CCF285 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		52AB00792A5CFB8E00CCF285 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		52AB007B2A5E153E00CCF285 /* RecipeStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStepsViewController.swift; sourceTree = "<group>"; };
+		52AB007C2A5E153E00CCF285 /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		52AB007D2A5E153F00CCF285 /* SearchNutrientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNutrientsViewController.swift; sourceTree = "<group>"; };
+		52AB007E2A5E153F00CCF285 /* NutrientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutrientsViewController.swift; sourceTree = "<group>"; };
+		52AB00832A5E49D200CCF285 /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		52AB00862A5E4B8600CCF285 /* Ingredients.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ingredients.xcdatamodel; sourceTree = "<group>"; };
+		52AB00882A5E4B8600CCF285 /* WTFD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTFD.xcdatamodel; sourceTree = "<group>"; };
+		52AB008B2A5E783700CCF285 /* RecipeStepsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStepsTableViewCell.swift; sourceTree = "<group>"; };
+		52AB008C2A5E783700CCF285 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		52AB008D2A5E783700CCF285 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		CD882BA1103E1478E4B5C709 /* Pods_Prueba_Amaris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Amaris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1BECC64ABB3D45AE1C46C7 /* Pods-Prueba_Amaris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba_Amaris.release.xcconfig"; path = "Target Support Files/Pods-Prueba_Amaris/Pods-Prueba_Amaris.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524754872A5B44DA00CBF5D6 /* Alamofire in Frameworks */,
+				7AA0AFCC3B2DAA885F0ACECD /* Pods_Prueba_Amaris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +77,8 @@
 			children = (
 				524754702A5B3D6900CBF5D6 /* Prueba_Amaris */,
 				5247546F2A5B3D6900CBF5D6 /* Products */,
+				B235794E596199C8F26C37C3 /* Pods */,
+				DF4933488F2282E06E112578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +109,12 @@
 		52AB006B2A5C7D3400CCF285 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				52AB006E2A5C967400CCF285 /* SpoonApi.swift */,
+				52AB00852A5E4B8600CCF285 /* Ingredients.xcdatamodeld */,
+				52AB00872A5E4B8600CCF285 /* WTFD.xcdatamodeld */,
+				52AB00832A5E49D200CCF285 /* Step.swift */,
+				52AB00702A5C9AAD00CCF285 /* Networking */,
+				52AB00752A5C9B1F00CCF285 /* DataModel.swift */,
+				52AB00772A5C9B5800CCF285 /* Recipe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,7 +122,12 @@
 		52AB006C2A5C7D3D00CCF285 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				52AB007E2A5E153F00CCF285 /* NutrientsViewController.swift */,
+				52AB007B2A5E153E00CCF285 /* RecipeStepsViewController.swift */,
+				52AB007D2A5E153F00CCF285 /* SearchNutrientsViewController.swift */,
+				52AB007C2A5E153E00CCF285 /* SearchRecipeViewController.swift */,
 				524754752A5B3D6900CBF5D6 /* ViewController.swift */,
+				52AB00792A5CFB8E00CCF285 /* RecipeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,8 +135,37 @@
 		52AB006D2A5C7D4700CCF285 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				52AB008D2A5E783700CCF285 /* IngredientTableViewCell.swift */,
+				52AB008B2A5E783700CCF285 /* RecipeStepsTableViewCell.swift */,
+				52AB008C2A5E783700CCF285 /* RecipeTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		52AB00702A5C9AAD00CCF285 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52AB00712A5C9AC600CCF285 /* SpoonacularApi.swift */,
+				52AB00732A5C9AE500CCF285 /* Spoonacular.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B235794E596199C8F26C37C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D3055C356E1989094822D5E /* Pods-Prueba_Amaris.debug.xcconfig */,
+				EC1BECC64ABB3D45AE1C46C7 /* Pods-Prueba_Amaris.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF4933488F2282E06E112578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD882BA1103E1478E4B5C709 /* Pods_Prueba_Amaris.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524754822A5B3D6B00CBF5D6 /* Build configuration list for PBXNativeTarget "Prueba_Amaris" */;
 			buildPhases = (
+				C58913ACFC08E71502C90129 /* [CP] Check Pods Manifest.lock */,
 				5247546A2A5B3D6900CBF5D6 /* Sources */,
 				5247546B2A5B3D6900CBF5D6 /* Frameworks */,
 				5247546C2A5B3D6900CBF5D6 /* Resources */,
+				316552987F55F1B8B42341A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,7 +187,6 @@
 			);
 			name = Prueba_Amaris;
 			packageProductDependencies = (
-				524754862A5B44DA00CBF5D6 /* Alamofire */,
 			);
 			productName = Prueba_Amaris;
 			productReference = 5247546E2A5B3D6900CBF5D6 /* Prueba_Amaris.app */;
@@ -144,7 +217,6 @@
 			);
 			mainGroup = 524754652A5B3D6900CBF5D6;
 			packageReferences = (
-				524754852A5B44DA00CBF5D6 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 5247546F2A5B3D6900CBF5D6 /* Products */;
 			projectDirPath = "";
@@ -168,15 +240,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		316552987F55F1B8B42341A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Amaris/Pods-Prueba_Amaris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Amaris/Pods-Prueba_Amaris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba_Amaris/Pods-Prueba_Amaris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58913ACFC08E71502C90129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba_Amaris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5247546A2A5B3D6900CBF5D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AB00892A5E4B8700CCF285 /* Ingredients.xcdatamodeld in Sources */,
+				52AB007F2A5E153F00CCF285 /* RecipeStepsViewController.swift in Sources */,
+				52AB00762A5C9B1F00CCF285 /* DataModel.swift in Sources */,
+				52AB008E2A5E783700CCF285 /* RecipeStepsTableViewCell.swift in Sources */,
+				52AB007A2A5CFB8E00CCF285 /* RecipeTableViewController.swift in Sources */,
+				52AB008A2A5E4B8700CCF285 /* WTFD.xcdatamodeld in Sources */,
 				524754762A5B3D6900CBF5D6 /* ViewController.swift in Sources */,
+				52AB00812A5E153F00CCF285 /* SearchNutrientsViewController.swift in Sources */,
+				52AB00902A5E783700CCF285 /* IngredientTableViewCell.swift in Sources */,
+				52AB00782A5C9B5800CCF285 /* Recipe.swift in Sources */,
 				524754722A5B3D6900CBF5D6 /* AppDelegate.swift in Sources */,
-				52AB006F2A5C967400CCF285 /* SpoonApi.swift in Sources */,
+				52AB00802A5E153F00CCF285 /* SearchRecipeViewController.swift in Sources */,
+				52AB00722A5C9AC600CCF285 /* SpoonacularApi.swift in Sources */,
 				524754742A5B3D6900CBF5D6 /* SceneDelegate.swift in Sources */,
+				52AB00742A5C9AE500CCF285 /* Spoonacular.swift in Sources */,
+				52AB00842A5E49D300CCF285 /* Step.swift in Sources */,
+				52AB008F2A5E783700CCF285 /* RecipeTableViewCell.swift in Sources */,
+				52AB00822A5E153F00CCF285 /* NutrientsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +446,7 @@
 		};
 		524754832A5B3D6B00CBF5D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3055C356E1989094822D5E /* Pods-Prueba_Amaris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +475,7 @@
 		};
 		524754842A5B3D6B00CBF5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1BECC64ABB3D45AE1C46C7 /* Pods-Prueba_Amaris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,24 +525,28 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		524754852A5B44DA00CBF5D6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
+/* Begin XCVersionGroup section */
+		52AB00852A5E4B8600CCF285 /* Ingredients.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52AB00862A5E4B8600CCF285 /* Ingredients.xcdatamodel */,
+			);
+			currentVersion = 52AB00862A5E4B8600CCF285 /* Ingredients.xcdatamodel */;
+			path = Ingredients.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		524754862A5B44DA00CBF5D6 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 524754852A5B44DA00CBF5D6 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
+		52AB00872A5E4B8600CCF285 /* WTFD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52AB00882A5E4B8600CCF285 /* WTFD.xcdatamodel */,
+			);
+			currentVersion = 52AB00882A5E4B8600CCF285 /* WTFD.xcdatamodel */;
+			path = WTFD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCVersionGroup section */
 	};
 	rootObject = 524754662A5B3D6900CBF5D6 /* Project object */;
 }
